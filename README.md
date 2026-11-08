@@ -1,16 +1,36 @@
-# React + Vite
+React To-Do and Notes App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+About the Project
 
-Currently, two official plugins are available:
+A simple productivity application built using React.js. It helps users manage daily tasks and personal notes in one place.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Features
 
-## React Compiler
+- Add, edit and delete tasks
+- Mark tasks as completed
+- Filter pending and completed tasks
+- Create, edit and delete notes
+- Search notes
+- Organize notes by category
+- Save tasks and notes using Local Storage
+- Data remains saved after refreshing the page
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Technologies Used
 
-## Expanding the ESLint configuration
+- HTML
+- CSS
+- JavaScript
+- React.js
+- Vite
+- Browser Local Storage
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+How to Run
+
+1. Clone the repository.
+2. Run "npm install".
+3. Run "npm run dev".
+4. Open the local URL shown in the terminal.
+
+Developed By
+
+Sandhyarani Malik

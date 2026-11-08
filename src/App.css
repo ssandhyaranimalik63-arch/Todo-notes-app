@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f3f0ff;
+  color: #29243d;
+}
+
+.app {
+  width: 90%;
+  max-width: 1000px;
+  margin: 40px auto;
+}
+
+h1 {
+  text-align: center;
+  color: #6338b5;
+  font-size: 36px;
+}
+
+.app > p {
+  text-align: center;
+  color: #777;
+  margin-bottom: 35px;
+}
+
+section {
+  background: white;
+  padding: 25px;
+  margin-bottom: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+h2 {
+  color: #6338b5;
+  margin-top: 0;
+}
+
+input, select {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 7px;
+  margin: 6px;
+  font-size: 15px;
+  max-width: 100%;
+}
+
+button {
+  background: #7045c2;
+  color: white;
+  border: none;
+  padding: 11px 16px;
+  margin: 5px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #512e96;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 13px;
+  margin-top: 12px;
+  background: #f7f4ff;
+  border-radius: 8px;
+  overflow-wrap: anywhere;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.filters {
+  margin-top: 15px;
+}
+
+.notes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+  margin-top: 15px;
+}
+
+small {
+  color: #777;
+}
+
+@media (max-width: 600px) {
+  .app {
+    width: 95%;
+    margin: 20px auto;
+  }
+
+  .item {
+    flex-wrap: wrap;
+  }
+
+  section {
+    padding: 15px;
+  }
+}
